@@ -1090,7 +1090,7 @@ ul.conta li a {
 /**  inner page css **/
 
 .inner_page .header {
-  background: #1f1c45;
+  background: linear-gradient(to left, #e7a41d 67%, #e98e16 33%);
   padding-bottom: 44px;
   position: inherit;
 }
@@ -1112,7 +1112,7 @@ ul.conta li a {
 /** blog **/
 
 .blog {
-  background: #1f1d47;
+  background: #e98e16;
   padding-top: 75px;
   padding-bottom: 80px;
   border: #fff solid 20px;
@@ -1197,7 +1197,7 @@ ul.conta li a {
   padding: 16px 17px;
   position: absolute;
   bottom: 0px;
-  background: #02306f;
+  background: #db3620;
   left: 0;
   right: 0;
   width: 203px;
