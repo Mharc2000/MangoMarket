@@ -38,7 +38,7 @@ html {
 }
 
 body {
-  color: #666666;
+  color: #e98e16;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   line-height: 1.80857;
@@ -384,10 +384,12 @@ ul.infomaco li a {
   border: #fff solid 20px;
   border-top: inherit;
   border-right: inherit;
+  height: 100vh;
 }
 
 .slider_main {
   padding-top: 10%;
+  height: 100%;
 }
 
 .carousel-caption h1 {
@@ -407,16 +409,18 @@ ul.infomaco li a {
   float: right;
 }
 
-.coff_img {
-  padding-right: 70px;
+.coff_img img{
+  height: 700px;
+  right: 10px;
   position: absolute;
-  top: -180px;
+  top: 210px;
 }
 
 @media screen and (max-width: 768px) {
-  .coff_img {
-    margin-left: 130px;
-    top: -120px;
+  .coff_img img{
+    position: absolute;
+    height:250px;
+    top: 645px;
   }
 }
 
@@ -656,18 +660,18 @@ ul.infomaco li a {
   background: #db3620;
 }
 
-.owl-item.active {
+/* .owl-item.active {
   transform: scale(0.8) !important;
-}
+} */
 
-.owl-carousel .owl-nav.disabled {
+/* .owl-carousel .owl-nav.disabled {
   display: inherit !important;
   position: absolute;
   left: -15px !important;
   top: 84%;
-}
+} */
 
-.owl-nav.disabled .owl-prev {
+/* .owl-nav.disabled .owl-prev {
   left: 0 !important;
   position: absolute !important;
   top: 108% !important;
@@ -682,7 +686,7 @@ ul.infomaco li a {
   font-size: 60px !important;
   line-height: 30px !important;
   opacity: 1;
-}
+} */
 
 .service .read_more {
   margin: 0 auto;
