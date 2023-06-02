@@ -418,9 +418,8 @@ ul.infomaco li a {
 
 @media screen and (max-width: 768px) {
   .coff_img img{
-    position: absolute;
-    height:250px;
-    top: 645px;
+    content: "";
+    display: none;
   }
 }
 
@@ -715,6 +714,10 @@ ul.infomaco li a {
 
 .main_form {
   width: 100%;
+  padding: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #db341e;
 }
 
 .main_form .contactus {
@@ -990,6 +993,14 @@ ul.menu_bottom li a {
   font-size: 20px;
 }
 
+@media screen and (max-width:768px) {
+  
+ul.menu_bottom li a {
+  color: #fff;
+  font-size: 15px;
+}
+}
+
 ul.menu_bottom li a:hover {
   color: #db3620;
 }
@@ -1038,6 +1049,12 @@ ul.conta li {
   line-height: 20px;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width:768px) {
+  ul.conta li{
+    font-size: 15px;
+  }
 }
 
 ul.conta li:last-child {
