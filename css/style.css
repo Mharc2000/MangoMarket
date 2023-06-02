@@ -730,6 +730,7 @@ ul.infomaco li a {
   font-size: 17px;
   font-weight: normal;
   border: inherit;
+  border-radius: 5px;
 }
 
 .main_form .textarea {
@@ -742,6 +743,7 @@ ul.infomaco li a {
   padding: 74px 30px 10px 30px;
   height: 178px;
   border: inherit;
+  border-radius: 5px;
 }
 
 .main_form .send_btn {

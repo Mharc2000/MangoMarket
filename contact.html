@@ -14,6 +14,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- style css -->
   <link rel="stylesheet" href="css/style.css">
@@ -74,9 +75,6 @@
                 <li class="nav-item">
                   <a class="nav-link" href="testimonial.html">Testimonial</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="blog.html">Blog</a>
-                </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
@@ -119,16 +117,23 @@
                         <input class="contactus" placeholder="Your name" type="type" name=" Name">
                       </div>
                       <div class="col-md-12">
-                        <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
+                        <input class="contactus" placeholder="Phone Number" type="number" name="Phone Number">
                       </div>
                       <div class="col-md-12">
-                        <input class="contactus" placeholder="Email" type="type" name="Email">
-                      </div>
-                      <div class="col-md-12">
-                        <input class="contactus" placeholder="Service you want" type="type" name="Services">
+                        <input class="contactus" placeholder="Email" type="email" name="Email">
                       </div>
                       <div class="col-md-12">
                         <textarea class="textarea" placeholder="Message" type="type" name="Message"></textarea>
+                      </div>
+                      <div class="col-md-12 mb-4">
+                        <select class="form-select" aria-label="Default select example" name="Services">
+                          <option selected>Choose service</option>
+                          <option value="Website Design" name="Services" type="type">Website Design</option>
+                          <option value="Branding Design" name="Services" type="type">Branding Design</option>
+                          <option value="Marketing Strategy" name="Services" type="type">Marketing Strategy</option>
+                          <option value="Branding Photography" name="Services" type="type">Branding Photography</option>
+                          <option value="Social Media Strategy" name="Services" type="type">Social Media Strategy</option>
+                        </select>
                       </div>
                       <div class="col-md-12">
                         <button class="send_btn" type="submit">Send</button>
