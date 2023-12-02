@@ -304,17 +304,7 @@ button {
   position: absolute;
 }
 
-.logo a {
-  color: #fff !important;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: bold;
-  line-height: 30px;
-  height: 50px !important;
-  display: block;
-  text-align: left;
-  padding-top: 36px;
-}
+
 
 ul.infomaco {
   padding-top: 41px;
